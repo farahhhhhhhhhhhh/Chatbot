@@ -7,8 +7,8 @@ from huggingface_hub import InferenceClient
 # ----------------------------------------------------------
 # Streamlit Title
 # ----------------------------------------------------------
-st.title("📘 RAG Chatbot – Milestone 1 Helper")
-st.write("Ask any question about the MS1 Checklist PDF. The answer is generated using FAISS-based retrieval + Gemma LLM.")
+st.title("Chatbot")
+st.write("Ask any question about the MS1 Checklist PDF")
 
 
 # ----------------------------------------------------------
@@ -130,3 +130,4 @@ if st.button("Get Answer"):
                 st.write(f"**Chunk {i}:**")
                 st.write(ch)
                 st.write("---")
+
